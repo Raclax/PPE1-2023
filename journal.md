@@ -1,3 +1,4 @@
+
 ### Exercice de navigation et rangement des fichiers par type et date, le 26/09 
 Le faire en passant par un terminal était moins intuitif que de passer par l'interface graphique d'abord mais après en avoir rapidement discuté avec d'autres personnes de la promo et avoir essayé toute seule c'est finalement très facile à manimuler. Cela demande un peu de logique mais une fois qu'on a toutes les commandes à disposition les manipuler aux fins de l'exercice est presque ludique.
 
@@ -13,3 +14,4 @@ Finalement il ne fallait pas créer un autre journal sans extention donc nous av
 J'essaye de m'entrainer à modifier mon journal et mettre des tags pour que les actions viennent plus facielemnt la prochiane fois
 Pour le groupe du projet, je suis avec Deborah de P3 mais il nous manque encore une personne de l'Inalco, que nous avons du mal à trouver; Dans l'idée, je m'occuperais du corpus en anglais et Déborah de celui en coréen; La personne de l'inalco maîtrisera surement une autre langue donc cela pourrait rndre notre corpus global très complet.
 
+Lignes à supprimer
