@@ -14,4 +14,9 @@ Finalement il ne fallait pas créer un autre journal sans extention donc nous av
 J'essaye de m'entrainer à modifier mon journal et mettre des tags pour que les actions viennent plus facielemnt la prochiane fois
 Pour le groupe du projet, je suis avec Deborah de P3 mais il nous manque encore une personne de l'Inalco, que nous avons du mal à trouver; Dans l'idée, je m'occuperais du corpus en anglais et Déborah de celui en coréen; La personne de l'inalco maîtrisera surement une autre langue donc cela pourrait rndre notre corpus global très complet.
 
-Lignes à supprimer
+### Exercices pour la séance du 11/10
+Création du fichier test
+
+Deuxième modification du fichier
+
+J'avais oublié qu'il y avai des exercices à faire donc je les fait un peu au dernier moment. Je ne suis pas sure de bien les avoir réalisés mais en tout cas ça avait l'air, les commandes ont fonctionnées et je n'ai pas eu de message d'erreur.
