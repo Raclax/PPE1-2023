@@ -35,7 +35,10 @@ d'erreur.
 
 ### Quatrième cours, le 11/10
 Commandes pour l'exercice qui ont été éclaires pendant le cours
-<code>git reset HEAD~2</code> :remonter de deux commits en arrière  
-<code>git reset <tag><code> : revenir à ce tag 
-<code>git rm oups.md</code>: pour supprimer de git
-<code>git revert</code> :faire une commande pour défaire celle sélectionner (pas comme reset)
+<code> git reset HEAD~2 </code> :remonter de deux commits en arrière  
+<code> git reset <tag><code> : revenir à ce tag 
+<code> git rm oups.md </code> : pour supprimer de git
+<code> git revert </code> :faire une commande pour défaire celle sélectionner (pas comme reset)
+
+Lorsque les commandes sont expliquées en cours réaliser les exercices n'est pas si compliqué, surtout qu'il y a toujours quelqu'un pour nous aides, mais les refaire à la maison est prfois un peu difficile.Je vais essayerde réaliser ceux pour la semaine prochaine assez tôt, pour que mes souvenirs du cours soient encore frais.
+
