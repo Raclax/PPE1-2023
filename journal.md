@@ -52,3 +52,8 @@ ondiqué sur le diapo, puis <code>chmod+x</code> pour rendre le code exécutable
 m'indique que la commande script.sh n'existe pas. Cela fait pllusieurs jours que je bloque dessus et iternet n'a 
 pas l'air de pouvoir m'aider.
 Je vais continuer d'essayer et voir si je finis par m'en sortir avant mardi midi.
+
+Après plusieurs nouveaux et de nouvelles recherches sur internet je 'narrive toujours pas a comprendre comment créer 
+un script et l'exécuter. Il est indqué a chaue fois que mon fichier n'est pas une commande, et lorsque j'ahoute chomd 
++x à la fin on m'indique qu'il manque un argument après, mais je ne sais pas ce qu'il faut rajouter.
+

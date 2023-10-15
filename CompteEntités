@@ -1,0 +1,4 @@
+ANNEE=$1
+TYPE=$2
+OCCURENCES_ANNEE=$(cat ./Fichiers/ann/$ANNEE/*/*|grep $TYPE|wc -l)
+echo "Pour l'année $ANNEE, il y a eu $OCCURENCES_ANNEE occurences de $TYPE."
