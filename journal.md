@@ -57,3 +57,8 @@ Après plusieurs nouveaux et de nouvelles recherches sur internet je 'narrive to
 un script et l'exécuter. Il est indqué a chaue fois que mon fichier n'est pas une commande, et lorsque j'ahoute chomd 
 +x à la fin on m'indique qu'il manque un argument après, mais je ne sais pas ce qu'il faut rajouter.
 
+J'ai finalement demandé de l'aide à Florian puisqu'il avait l'air d'avoir bien compris et nous avons fait ensemble 
+les deux premières questions puis il m'a laissé faire les autres et je pense avoir désormais compris comment utiliser 
+des scripts. J'ai instalé vim et a retenu la syntaxe qu'il utilise pour comprendre comment créer des vaiables et 
+faire des commandes. Pour la dernière question, "accepter les * pour l'année et le mois", cela foncitionne déja si on 
+le met entre "" donc je ne sais pas triop si il faut refaire un noveau script pour ça.
