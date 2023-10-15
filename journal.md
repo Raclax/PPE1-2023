@@ -40,5 +40,15 @@ Commandes pour l'exercice qui ont été éclaires pendant le cours
 <code> git rm oups.md </code> : pour supprimer de git
 <code> git revert </code> :faire une commande pour défaire celle sélectionner (pas comme reset)
 
-Lorsque les commandes sont expliquées en cours réaliser les exercices n'est pas si compliqué, surtout qu'il y a toujours quelqu'un pour nous aides, mais les refaire à la maison est prfois un peu difficile.Je vais essayerde réaliser ceux pour la semaine prochaine assez tôt, pour que mes souvenirs du cours soient encore frais.
+Lorsque les commandes sont expliquées en cours réaliser les exercices n'est pas si compliqué, surtout qu'il y a 
+toujours quelqu'un pour nous aides, mais les refaire à la maison est prfois un peu difficile.Je vais essayerde 
+réaliser ceux pour la semaine prochaine assez tôt, pour que mes souvenirs du cours soient encore frais.
 
+
+### Exercice de création d'un script
+Je ne comprend pas comment faire un script. C'est surtout la syntaxe que je ne comprend pas. J'ai essayé de créer 
+un fichier puis avec la commande nano j'y ai inscrit <code>#!/usr/bin/bash</code> puis la commande echo $2 comme 
+ondiqué sur le diapo, puis <code>chmod+x</code> pour rendre le code exécutable, mais lorsque je le teste ça 
+m'indique que la commande script.sh n'existe pas. Cela fait pllusieurs jours que je bloque dessus et iternet n'a 
+pas l'air de pouvoir m'aider.
+Je vais continuer d'essayer et voir si je finis par m'en sortir avant mardi midi.
