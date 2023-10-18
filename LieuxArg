@@ -1,3 +1,9 @@
+if [ $# -ne 3 ]
+then 
+	echo "Ce script demande trois arguments : une année, un mois et le nombre de lieux à afficher"
+		exit
+fi
+
 ANNEE=$1
 MOIS=$2
 NB_LIEUX=$3

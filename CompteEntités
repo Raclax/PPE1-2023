@@ -1,3 +1,9 @@
+if [ $# -ne 2 ]
+then
+	echo "Ce programme demande 2 arguments"
+		exit
+fi
+
 ANNEE=$1
 TYPE=$2
 OCCURENCES_ANNEE=$(cat ./Fichiers/ann/$ANNEE/*/*|grep $TYPE|wc -l)
