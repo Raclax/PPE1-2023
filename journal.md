@@ -62,3 +62,11 @@ les deux premières questions puis il m'a laissé faire les autres et je pense a
 des scripts. J'ai instalé vim et a retenu la syntaxe qu'il utilise pour comprendre comment créer des vaiables et 
 faire des commandes. Pour la dernière question, "accepter les * pour l'année et le mois", cela foncitionne déja si on 
 le met entre "" donc je ne sais pas triop si il faut refaire un noveau script pour ça.
+
+### Cinquième cours, 18/10
+J'attend de voir la correction pour vérifier mes scripts mais je pense avoir bien compris. Les boucles sont un outil 
+qui sera très utile pour l'utilisation de bash mais comme on 'apprend sur plusieurs langages en même temps à travers 
+les différents cours, il va falloir bien comprendre la syntaxe et ne pas la confondre. Pour ce qui est du groupe PPE, 
+Débora et moi avons trouvé une personne de l'inalco pour compléter notre groupe, Maria, bien que nous la connaissons 
+pas plus que ça; NOus allons rapidement organiser une réunion pourmettre au point la base de notre projet et définir 
+notre mot.
