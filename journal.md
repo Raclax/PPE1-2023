@@ -34,9 +34,9 @@ bien les avoir réalisés mais en tout cas ça avait l'air, les commandes ont fo
 d'erreur.
 
 ### Quatrième cours, le 11/10
-Commandes pour l'exercice qui ont été éclaires pendant le cours
+Commandes pour l'exercice qui ont été éclaires pendant le cours:
 <code> git reset HEAD~2 </code> :remonter de deux commits en arrière  
-<code> git reset <tag><code> : revenir à ce tag 
+<code> git reset <tag> <code> : revenir à ce tag 
 <code> git rm oups.md </code> : pour supprimer de git
 <code> git revert </code> :faire une commande pour défaire celle sélectionner (pas comme reset)
 
