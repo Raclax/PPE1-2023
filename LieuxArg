@@ -7,4 +7,20 @@ fi
 ANNEE=$1
 MOIS=$2
 NB_LIEUX=$3
-cat ./Fichiers/ann/$ANNEE/$MOIS/*.ann|grep Location|cut -f3|sort|uniq -c|sort -nr|head -n $NB_LIEUX
+if [[ $1 =~ 20(16|17|18) ]]
+then
+	if [[ $2 =~ (0(1|2|3|4|5|6|7|8|9)|1(0|1|2)) ]]
+	then
+		if [[ $3 =~ [1-9]* ]]
+		then 
+
+			cat ./Fichiers/ann/$ANNEE/$MOIS/*.ann|grep Location|cut -f3|sort|uniq -c|sort -nr|head -n $NB_LIEUX
+		else
+			echo "Il faut choisir un nombre entier"
+			fi
+	else
+		echo "Il faut choisir un mois, sous sa forme décimale"
+	fi
+else
+	echo "Il faut choisir entre 2016, 2017 ou 2018"
+fi

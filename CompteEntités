@@ -6,5 +6,16 @@ fi
 
 ANNEE=$1
 TYPE=$2
-OCCURENCES_ANNEE=$(cat ./Fichiers/ann/$ANNEE/*/*|grep $TYPE|wc -l)
-echo "Pour l'année $ANNEE, il y a eu $OCCURENCES_ANNEE occurences de $TYPE."
+if [[ $1 =~ 20(16|17|18) ]]
+then
+	if [[ $2 =~ (Location|Event|Person|Date|Hour|Organization) ]]
+	then 
+		OCCURENCES_ANNEE=$(cat ./Fichiers/ann/$ANNEE/*/*|grep $TYPE|wc -l)
+		echo "Pour l'année $ANNEE, il y a eu $OCCURENCES_ANNEE occurences de $TYPE."
+	else
+		echo "Il faut choisir un type d'entité valide"
+		exit
+	fi
+else 
+	echo "Il faut choisir entre 2016, 2017 ou 2018"
+fi

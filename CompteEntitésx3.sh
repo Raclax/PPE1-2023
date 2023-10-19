@@ -5,6 +5,11 @@ then
 fi
 
 TYPE=$1
-bash CompteEntités 2016 $TYPE
-bash CompteEntités 2017 $TYPE
-bash CompteEntités 2018 $TYPE
+if [[ $1 =~ (Location|Organization|Event|Person|Date) ]]
+then
+	bash CompteEntités 2016 $TYPE 
+	bash CompteEntités 2017 $TYPE
+	bash CompteEntités 2018 $TYPE 
+else 
+	echo "Il faut choisir un type d'entité valide"
+fi
