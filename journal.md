@@ -82,3 +82,11 @@ avec d'autres caractères derrière il ne le reconnait pas comme une erreur et m
 d'occurences. Donc j'ai essayé de modifié mon expression régulière avec des backslash b avant et après et 
 l'expression entre guillements mais alors même les types d'éléments bien orthographiés ne sont plus reconnus.
 J'ai essayé de chercher un peu mais ai fini par abandonner.
+
+### Sixième cours, 25/10
+Il y a eu beaucoup d'exercices pratiques er de recherches personnelles, et je pense que seule j'aurais eu beaucoup de mal mais nous étions deux avec Manon à réfléchir aux solutions que nous pourrions trouver et finalement nous avons plutôt bien réussi. 
+POur la permière question, changer "urls/fr.tkt" en argument n'a pas été un soucis puisqu'il s'agissait du contenu des devoirs pour la séance. La question d'afficher les numéros des lignes non pus, puisque le principe de compteur commence à être familier avce les autres langages de programmations et nous avions vu la syntaxe sur bash dans un des cours précédents.
+Trouver le code HTTP d'une page pour l'afficher était moins évident, mais en mobilisant ce qu'on szvait déjà on est parvenu à ne selectionner, via egrep, seulement les parties du document qui nous interessent. 
+La derniere question, en revanche, nous a posé problème: nous n'arrivons pas à trouver la commande qui permet de trouver directement le langage d'encodage d'une page ni à trouver l'endroit exact ou est situé cette information lorsqu'on l'ouvre. J'ai essayé de regarder unpeu après le cours sans grand succès. Mais je pense qu'il faut faire un peu comme la précédente ! lire tout le fichier et ne selectionner avec egrep que l'information qui nous interesse
+
+Pour le projet, nous avons un eu discuté du ot qui pourrait être interessant pour notre étude, sachant que nous avons l'anglais, le coréen et le polonais. Nous avions pensé à l'envahissement, le futur ou alors la procrastination, mais ne nous sommes encore fixées sur rien. 
