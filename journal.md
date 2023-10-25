@@ -84,9 +84,28 @@ l'expression entre guillements mais alors même les types d'éléments bien orth
 J'ai essayé de chercher un peu mais ai fini par abandonner.
 
 ### Sixième cours, 25/10
-Il y a eu beaucoup d'exercices pratiques er de recherches personnelles, et je pense que seule j'aurais eu beaucoup de mal mais nous étions deux avec Manon à réfléchir aux solutions que nous pourrions trouver et finalement nous avons plutôt bien réussi. 
-POur la permière question, changer "urls/fr.tkt" en argument n'a pas été un soucis puisqu'il s'agissait du contenu des devoirs pour la séance. La question d'afficher les numéros des lignes non pus, puisque le principe de compteur commence à être familier avce les autres langages de programmations et nous avions vu la syntaxe sur bash dans un des cours précédents.
-Trouver le code HTTP d'une page pour l'afficher était moins évident, mais en mobilisant ce qu'on szvait déjà on est parvenu à ne selectionner, via egrep, seulement les parties du document qui nous interessent. 
-La derniere question, en revanche, nous a posé problème: nous n'arrivons pas à trouver la commande qui permet de trouver directement le langage d'encodage d'une page ni à trouver l'endroit exact ou est situé cette information lorsqu'on l'ouvre. J'ai essayé de regarder unpeu après le cours sans grand succès. Mais je pense qu'il faut faire un peu comme la précédente ! lire tout le fichier et ne selectionner avec egrep que l'information qui nous interesse
+Il y a eu beaucoup d'exercices pratiques er de recherches personnelles, et je pense que seule j'aurais eu 
+beaucoup de mal mais nous étions deux avec Manon à réfléchir aux solutions que nous pourrions trouver et 
+finalement nous avons plutôt bien réussi. POur la permière question, changer "urls/fr.tkt" en argument n'a pas 
+été un soucis puisqu'il s'agissait du contenu des devoirs pour la séance. La question d'afficher les numéros 
+des lignes non pus, puisque le principe de compteur commence à être familier avce les autres langages de 
+programmations et nous avions vu la syntaxe sur bash dans un des cours précédents. Trouver le code HTTP d'une 
+page pour l'afficher était moins évident, mais en mobilisant ce qu'on szvait déjà on est parvenu à ne 
+selectionner, via egrep, seulement les parties du document qui nous interessent. La derniere question, en 
+revanche, nous a posé problème: nous n'arrivons pas à trouver la commande qui permet de trouver directement le 
+langage d'encodage d'une page ni à trouver l'endroit exact ou est situé cette information lorsqu'on l'ouvre. 
+J'ai essayé de regarder unpeu après le cours sans grand succès. Mais je pense qu'il faut faire un peu comme la 
+précédente ! lire tout le fichier et ne selectionner avec egrep que l'information qui nous interesse
 
-Pour le projet, nous avons un eu discuté du ot qui pourrait être interessant pour notre étude, sachant que nous avons l'anglais, le coréen et le polonais. Nous avions pensé à l'envahissement, le futur ou alors la procrastination, mais ne nous sommes encore fixées sur rien. 
+Pour le projet, nous avons un eu discuté du ot qui pourrait être interessant pour notre étude, sachant que 
+nous avons l'anglais, le coréen et le polonais. Nous avions pensé à l'envahissement, le futur ou alors la 
+procrastination, mais ne nous sommes encore fixées sur rien.
+
+### Fin des exercices pour la déance 6
+J'ai finalement réussi àisoler la langue d'encodage et à la faire afficher. Je ne pense pas que ce soit la 
+façon la plus optimale de faire mais au moins le résultat est le bon. J'ai commencé par rédure la selection 
+avec egrep à la partie du texte qui définit la langue d'encodage, puis j'ai isolé celle-ci. La consigne dit 
+"si c'est possible" donc peut être que cela veut dire qu'il y a certaines pages dont le langage d'encodage 
+n'est pas visible, mais pourtant j'ai trouvé UTF-8 pour chacune d'elles.
+
+Je pense que durant nous allons essayer de nous fixer sur un mot pour le projet avant les vacances, pour être bien au point à la rentrée.
