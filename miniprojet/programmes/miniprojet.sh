@@ -16,14 +16,13 @@ else
 fi
 
 
- 
+echo "<tr><th>Numéro</th><th>URL</th><th>codeHTTP</th><th>encodage</th></tr>" >> miniprojet1.html
 while read -r line;
 do
+	HTTP=$(curl -s -I -L -w "%{http_code}" -o /dev/null $URL)
+	CODE=$(curl -s -I -L -w "%{content_type}" -o /dev/null $URL | grep -P -o "charset=\S+" | cut -d"=" -f2 | tail -n 1)
+	echo "<tr><td>"$N"</td><td>"${line}"</td><td>"$HTTP"</td><td>"$CODE"</td></tr>" >> miniprojet1.html
 	N=$(expr $N + 1)
-	HTTP=$(curl -i -s ${line} | egrep "\bHTTPS?/.*? [1-5][0-9]{2}\b" | egrep -o "\b[1-5][0-9]{2}\b");
-	CODE=$(curl -i -s ${line} | locale | egrep -i "\blang=\b"|egrep -i -o "\butf-.*?|iso-8859-..?|macintosh|win-12..\b")
-	echo -e $N '\t' ${line} '\t' $HTTP '\t' $CODE;
-done < $DOC;
 
-
-
+done
+echo "</table>" >> miniprojet1.html

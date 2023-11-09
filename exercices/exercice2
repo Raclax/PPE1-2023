@@ -1,0 +1,7 @@
+FICHIER=$1
+NOMBRE=${2:-25}
+
+bash prepa.sh $FICHIER |sort|uniq -c|sort -nr|head -n $NOMBRE
+
+
+
