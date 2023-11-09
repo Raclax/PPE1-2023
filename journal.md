@@ -109,3 +109,21 @@ avec egrep à la partie du texte qui définit la langue d'encodage, puis j'ai is
 n'est pas visible, mais pourtant j'ai trouvé UTF-8 pour chacune d'elles.
 
 Je pense que durant nous allons essayer de nous fixer sur un mot pour le projet avant les vacances, pour être bien au point à la rentrée.
+
+### Cours 7 et exercices pour cours 8
+J'ai eu beaucoup de mal à réaliser les exercices pour la prochaine séance. D'abors, mettre les résultats 
+du tableau de la séance précédente sous la forme d'un tabeau avec des balises html : le résutat n'est pas 
+concluant mais après plus d'une heure à tourner en rond je ne trouve pas ce qui ne va pas avec ce que 
+j'ai rédigé : j'espère que la correction qui sera donnée en cours m'aidera. la page html n'indique que le 
+titre des colonnes mais on dirait que le programme n'entre pas dans la boucle while. ENsuite, les 
+exercices supplémetaiores du miniprojet m'ont parru moins colpliqués, la dernières question demandait 
+plus de reflexions mais avec des recherches sur internet et la mobilisation de mes connaissances cela n'a 
+pas vraiment posé de soucis. Le soucis à ete pour trier les bigrammes : l'orsquej'utilisais sort, cela ne 
+triait que l'une des deux colonnes et me donnait donc l'ordre d'apparition des mots seuls, ce que je ne 
+comprenais pas. J'ai fini par evoyer mon script à un camarade de classe et il s'est avéré que, sur son 
+terminal, il a fonctionné. J'ai eu également à chaque fois quej'ai essayé d'ouvrir le script par vim un 
+message d'erreur me disant qu'il y avait un autre fichier swap avec le même nom et lorsque je choisissais 
+éditer tout de même, mes dernières modifications n'étaient pas enregistrées. J'ai trouvé par des 
+recherches que faire vim -r puis de supprimer ce fichier .swp était une solution et ça a l'air d'avoir 
+fonctionné. Pour le projet, notre groupe à l'air de s'être arrêté sur le mot "lien" car il nous parrait 
+Xxassez polycémique.
