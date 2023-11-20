@@ -125,5 +125,10 @@ terminal, il a fonctionné. J'ai eu également à chaque fois quej'ai essayé d'
 message d'erreur me disant qu'il y avait un autre fichier swap avec le même nom et lorsque je choisissais 
 éditer tout de même, mes dernières modifications n'étaient pas enregistrées. J'ai trouvé par des 
 recherches que faire vim -r puis de supprimer ce fichier .swp était une solution et ça a l'air d'avoir 
-fonctionné. Pour le projet, notre groupe à l'air de s'être arrêté sur le mot "lien" car il nous parrait 
-Xxassez polycémique.
+fonctionné. Pour le projet, notre groupe à l'air de s'être arrêté sur le mot "lien" car il nous parrait assez polycémique.
+
+### Fin du mini-projet
+J'ai de plus en plus de mal a correctement réaliser les exercices demandés. Pour celui-ci, il m'a fammu un certain temps pour comprendre comment on pouvait modifier l'affichage du tableau avec Bulma mais j'ai fonalemet compris et pu mettre en page un tabeau plus propre. Par contre, la gestion des pages web avec git est encore totalement incomprehensible pour moi. J'ai créer un noveau site pour voir si ce dernier allait utiliser le deuxième index que j'ai crée pour ce cours mais apparement non, et j'ai donc supprimé lepremier index de ma page mais lorsque j'entre le lien de mon dépot cela affiche juste "PPE1-2023" et la documentation n'a pas l'air de mentionne ce cas de figure.
+De même, il est indiqué sur le diaporama qu'il faut créer un site juste pour le tableau pour pouvoir metttre son lien dans le site de l'indexe, mais encore une fois je ne comprend pas comment déployer plusieurs site depuis un seul dépot github. Mais j'au vu qu'on pouvait aller chercher un élément de son dépot local en utilisant en urilisant la balise <code> <a> </code> et la commande href mais cela n'a pas l'air de fonctionner, lorsque j'ouvre le site depuis le fichier html depuis mes dossiers.
+Je pense que je vais continuer à chercher sur internet des informations sur les sites via git et si cela se montre infructueux j'attendrai le cours de mercredi pour poser des questions.
+
