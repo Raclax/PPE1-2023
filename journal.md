@@ -133,3 +133,9 @@ De même, il est indiqué sur le diaporama qu'il faut créer un site juste pour 
 Je pense que je vais continuer à chercher sur internet des informations sur les sites via git et si cela se montre infructueux j'attendrai le cours de mercredi pour poser des questions.
 Après plusieurs recherches et tentatives j'ai décidé de m'arreter ici car je n'avance pas et continuer ne servira à part me déprimer ou m'énerver.
 Je vais essayer de bien suivre la correction du prochain cours car c'est un élément qui est près important pour le projet mais je n'ai visiblement pas réussi à le comprendre correctement. J'espère donc que les autres personnes de mon groupe s'en sont mieux sorties que moi, pour qu'elles puissent m'expliquer et que nous puissions rendre un bon site.
+
+### Cours 9
+La séance d'aujoud'hui s'est bien passée, j'ai pu comprendre comment mettre des liens dans les cases du tableau. Les questions ne sont pas si difficiles puisque nous avons déjà fait presque tout au cours des séances précédentes. Mais le script que nous utilisons produit un tableau qui n'a toujours pas de mise en forme et je pense que je serais encore bien en peine de le faire moi-même, mais l'esthétique est un soucis que nous règlerons plus tard je pense.
+Pour cette séance, nous n'avions pas toutes tous nos urls mais nous allons essayer d'en trouver une 50aine d'ici à la prochaone séance.
+Il y a juste une chose que j'ai pas compris:pourquoi les fichiers aspiration sont en html mais les fichiers contexte et dump en txt, alors qu'on doit aussi les ouvrir depuis un lien dans le tableau? Je sais que cela fonctionne en local mais je ne sais pas si un autre ordinateur arrivera à les lire aussi.
+A part ça je ne pense pas qu'il y ai de problème particulier, nous verrons la semaine prochaine.
