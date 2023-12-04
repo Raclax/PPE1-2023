@@ -139,3 +139,8 @@ La séance d'aujoud'hui s'est bien passée, j'ai pu comprendre comment mettre de
 Pour cette séance, nous n'avions pas toutes tous nos urls mais nous allons essayer d'en trouver une 50aine d'ici à la prochaone séance.
 Il y a juste une chose que j'ai pas compris:pourquoi les fichiers aspiration sont en html mais les fichiers contexte et dump en txt, alors qu'on doit aussi les ouvrir depuis un lien dans le tableau? Je sais que cela fonctionne en local mais je ne sais pas si un autre ordinateur arrivera à les lire aussi.
 A part ça je ne pense pas qu'il y ai de problème particulier, nous verrons la semaine prochaine.
+
+## Exercices pour l'avant-dernier cours
+Je comprend comment réaliser l'exercice 2 mais lorsque je lance le script avec comme argument le chemin vers le fichier dump on m'écrit "permission denied" et ça ne change pas même parès aveoir fait chmod +x et quelques autres trucs que j'ai trouvés sur internet. J'ai demande à mes camarades de projet de regarder de leur côté pour voir si elles avaient le même soucis que moi, et si ce n'est pas le cas alors on pourra terminer l'exercice depuis leur machine. 
+A part cela il n'y à pas grand chose à ajouter pour l'instant. notre site à l'air de fonctionner même si il faut encore que nous travaillions sur la mise en page.
+
